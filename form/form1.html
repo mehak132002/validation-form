@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/b46a3f1e0f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="form.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <section>
+    <div class="container mt-5">
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="fullName">Full Name <i class="fa-solid fa-monument"></i></label>
+                <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email ID <i class="fa-regular fa-envelope"></i></label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number <i class="fa-solid fa-phone"></i></label>
+                <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <label for="password">Password <i class="fa-solid fa-key"></i></label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+            <div class="form-group">
+                
+                <label for="confirmPassword" >Confirm Password <i class="fa-solid fa-lock"></i></label>
+                <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password"  >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</section>
+    <script src="form.js"></script>
+</body>
+</html>
